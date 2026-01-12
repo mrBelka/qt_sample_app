@@ -1,7 +1,13 @@
 # Using
+
+Requirements:
+1. Win 10 (22H2) x64
+2. MSVC v194 (Visual Studio 2022)
+
 ### Clone
 ```
 git clone --recursive https://github.com/mrBelka/qt_sample_app.git
+# It will work for some time, because submodule size is about 700Mb. It uses Git LFS for increase downloading.
 ```
 
 
