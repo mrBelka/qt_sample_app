@@ -12,11 +12,13 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
 qt_standard_project_setup()
 
+include_directories("inc/")
+
 qt_add_executable(${PROJECT_NAME}
-    main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
+    src/main.cpp
+    src/mainwindow.cpp
+    inc/mainwindow.h
+    src/mainwindow.ui
 )
 
 target_link_libraries(${PROJECT_NAME}
